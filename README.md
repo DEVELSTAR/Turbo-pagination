@@ -12,4 +12,10 @@ bundle add pagy =>
 
 load_more button with Streams =>
 
-rails g scaffold posts body:text
+###
+rails g scaffold posts title image_url =>
+
+seed
+rails db:reset
+pagination =>
+
