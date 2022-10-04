@@ -19,3 +19,4 @@ seed
 rails db:reset
 pagination =>
 
+turbo frames infinite scroll =>

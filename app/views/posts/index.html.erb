@@ -12,3 +12,7 @@
 </div>
 
 <%= link_to "New post", new_post_path %>
+  <%#= @pagy.next %>
+  <%#= pagy_url_for(@pagy, @pagy.next) %>
+  <%= render "posts/next_page" %>
+  <%#= turbo_frame_tag "posts-page-#{@pagy.next}", loading: :lazy, src: pagy_url_for(@pagy, @pagy.next) %>
