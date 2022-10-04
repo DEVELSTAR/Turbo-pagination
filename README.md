@@ -9,3 +9,5 @@ bundle add faker
 rails db:seed =>
 
 bundle add pagy =>
+
+load_more button with Streams =>
