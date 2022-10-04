@@ -7,3 +7,5 @@ rails db:migrate =>
 
 bundle add faker
 rails db:seed =>
+
+bundle add pagy =>
