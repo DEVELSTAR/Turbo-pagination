@@ -11,3 +11,5 @@ rails db:seed =>
 bundle add pagy =>
 
 load_more button with Streams =>
+
+rails g scaffold posts body:text
